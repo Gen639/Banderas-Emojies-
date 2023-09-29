@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(42, 79, 117);
+}
+
+img {
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+}
+
+.flex-vert {
+  flex-direction: column;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.column-1 {
+  width: 80vw;
+}
+.column-2 {
+  width: 20vw;
+}
